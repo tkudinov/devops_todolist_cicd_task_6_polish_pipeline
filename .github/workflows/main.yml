@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
     inputs:
       os_choosing:
-        descriptions: "Choosing of operational system: "
+        description: "Choosing of operational system: "
         required: true
         type: choice
         options: ['windows', 'ubuntu']
